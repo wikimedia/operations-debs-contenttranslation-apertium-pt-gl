@@ -4,14 +4,12 @@ Priority: optional
 Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Tino Didriksen <mail@tinodidriksen.com>,
            Kartik Mistry <kartik@debian.org>
-Build-Depends: apertium (>= 3.3),
+Build-Depends: apertium-dev (>= 3.4),
                autotools-dev,
-               debhelper (>= 8.0),
+               debhelper (>= 9),
                dh-autoreconf,
                gawk,
-               libapertium3-3.3-dev,
                locales,
-               lttoolbox (>= 3.3),
                pkg-config (>= 0.21)
 Standards-Version: 3.9.6
 Homepage: http://apertium.org/
@@ -20,7 +18,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/apertium-pt
 
 Package: apertium-pt-gl
 Architecture: all
-Depends: apertium (>= 3.3), ${misc:Depends}, ${shlibs:Depends}
+Depends: apertium (>= 3.4), ${misc:Depends}, ${shlibs:Depends}
 Provides: apertium-gl-pt
 Conflicts: apertium-gl-pt
 Description: Apertium translation data for the Portuguese-Galician pair

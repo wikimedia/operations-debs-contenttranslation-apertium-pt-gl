@@ -1,3 +1,10 @@
+apertium-pt-gl (0.9.2~r60358-1) jessie-wikimedia; urgency=low
+
+  * Rebuild for Jessie.
+  * Fixed dependencies.
+
+ -- Kartik Mistry <kartik@debian.org>  Sun, 26 Jun 2016 18:55:48 +0530
+
 apertium-pt-gl (0.9.2~r60358-1) trusty; urgency=low
 
   * New upstream release:
