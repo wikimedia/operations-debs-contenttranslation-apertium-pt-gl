@@ -1,3 +1,15 @@
+apertium-pt-gl (0.9.2~r60358-2+wmf1) jessie-wikimedia; urgency=low
+
+  * debian/rules:
+    + Simplify rules file.
+    + Do not install duplicate upstream changelog.
+  * debian/control:
+    + Removed dependency on locales.
+    + Updated Vcs-Git URL.
+    + Updated to Standards-Version 3.9.8
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 09 Jan 2018 14:18:38 +0530
+
 apertium-pt-gl (0.9.2~r60358-1) jessie-wikimedia; urgency=low
 
   * Rebuild for Jessie.
